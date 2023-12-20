@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navigation-bar">
+        <div class="nav-logo">
+            <a href="/">1Noman Portfolio</a>
+        </div>
+        <ul class="nav-links">
+            <li class="links"><a class="hover" href="/">Home</a></li>
+            <li class="links"><a class="hover" href="/">About US</a></li>
+            <li class="links"><a class="hover" href="/">Services</a></li>
+            <li class="links"><a class="hover" href="/">Contact Us</a></li>
+        </ul>
+        <div class="search-bar">
+            <input type="text" name="text" placeholder="Search here...">
+            <div class="search_icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+        <a href="/"><button class="action_btn">Get Started</button></a>
+    </nav>
+    <main class="container">
+        <section class="First-sec">
+            <div class="f-left">
+                <h1 class="web-name">Code with <span class="change-clr">1Noman</span></h1>
+                <h1 class="web-name">I am a Professional</h1>
+                <span id="element"></span><br>
+                <a href="/"><button class="action_btn second-btn">Click here</button></a>
+                <a href="/"><button class="action_btn second-btn">Git-hub repositories</button></a>
+            </div>
+            <div class="f-right">
+                <img class="first-img"
+                    src="https://theninehertz.com/wp-content/themes/ninehertz/assets-2022/img/hire-web-developers/png/Hire-Web-Developers.png"
+                    alt="png-img">
+            </div>
+        </section>
+        <section class="Second-sec">
+            <div class="s-left">
+                <img class="second-img" src="test.png" alt="png-img">
+            </div>
+            <div class="s-right">
+                <h1>HTML(Hyper-Text-Markup-language)</h1>
+                <ul class="remove-style">
+                    <p>Collaborated with a team of developers to create and maintain responsive and user-friendly
+                        websites using HTML, CSS, and JavaScript.</p>
+                    <p>Developed and maintained clean, semantic HTML code to ensure proper website structure and
+                        accessibility.</p>
+                    <p>Created user-friendly forms with input validation to facilitate data collection and user
+                        interactions.</p>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web-Designer', 'Graphic-Designer', 'Digital-Marketer', 'Web-Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
